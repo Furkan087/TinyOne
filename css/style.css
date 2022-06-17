@@ -1,0 +1,167 @@
+/*common start*/
+body{
+	font-family: pt sans sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+/*common end*/
+
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.menu ul li a{
+	font-weight: 500;
+	font-size: 22px;
+	color: black;
+	padding: 0 40px !important;
+}
+.menu ul li a:hover{
+	color: white;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
+
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.c_carousel{
+	bottom: -80px;
+}
+.c_carousel [data-bs-target]{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.s_text{
+	margin-top: 50px;
+}
+
+.s_text h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.s_text h2{
+	margin: 20px 0;
+    font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+.s_text p{
+	margin-bottom: 35px;
+    color: #555555;
+}
+
+.s_icon{}
+.s_icon ul li{
+	margin-right: 30px !important;
+}
+
+.s_icon ul li i{
+	color: #010101 ;
+	font-size: 42px;
+	transition: .5s;
+}
+.s_icon ul li i:hover{
+	transform: scale(.8);
+}
+
+.s_img{
+	    padding-left: 100px;
+}
+
+.s_img img{}
+/*slider end*/
+
+/*feature start*/
+.feature{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.f_title{}
+.c_h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.c_p{}
+.f_icon{
+	font-size: 50px;
+	color: black;
+}
+
+.f_text h2{
+	margin-top: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+}
+.f_text p{}
+/*feature end*/
+
+/*contact start*/
+.contact{
+	background-color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.h1_c{
+	color: #fcdb00;
+}
+.c_input{
+	height: 55px;
+	font-family: 'pt sans', sans-serif;
+	color: #898989;
+	padding: 15px 20px;
+
+}
+.c_submit{
+	width: 100%;
+    height: 55px;
+    background-color:#fcdb00;
+    font-family: 'pt sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+    color: #010101;
+	text-transform: uppercase;
+}
+.c_submit:hover{
+	background-color: whitesmoke;
+
+}
+.c_icon li{
+	margin-right: 30px !important;
+}
+.c_icon li:last-child{
+	margin-right: o !important;
+}
+.c_icon li i{
+	font-size: 42px;
+	color: #fcdb00;
+	transition: .3s;
+
+}
+.c_icon li i:hover{
+	color: white;
+}
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #010101;
+
+}
+.c_f1 address{
+	color: white;
+}
+.c_f2 p a{
+	color: white;
+	text-decoration: none;
+}
+/*footer start*/
