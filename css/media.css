@@ -20,8 +20,8 @@ header{
 	bottom: -60px;
 }
 .c_carousel [data-bs-target]{
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 }
 .s_text{
 	margin-top: 0px;
@@ -76,7 +76,12 @@ header{
  .footer{
  	text-align: center;
 }
- /*footer end*/
+.c_f1 address p span{
+	text-align: center;
+
+ 
+}
+/*footer end*/
 
 }
 
@@ -149,7 +154,17 @@ header{
     height: 40px;
 }
  /*contact end*/
+ 
+ /*footer start*/
+ .c_f1 address{
+ 	text-align: center;
+    line-height:20px;
+ }
+ .c_f2 p a{
+ 	text-align: center;
+ }
 
+/*footer end*/
 
 }
 
